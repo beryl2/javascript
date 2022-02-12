@@ -1,0 +1,2 @@
+weather ==='sunny';
+weather ==='cloudy';
