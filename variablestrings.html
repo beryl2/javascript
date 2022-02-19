@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <h2> javascript template literals</h2>
+        <p id="demo"></p>
+       <!---- <script>
+            let firstName = "john";
+            let lastName = "doe"
+            let text = `welcome ${firstName} ,${lastName}!`
+            document.getElementById("demo").innerHTML = text;
+        </script>-->
+        <!--template literals allow expressions in strings-->
+        <script>
+            let price = 10;
+            let VAT = 0.25;
+            let total = `total: ${(price *(1 +VAT)).toFixed(2)}`;
+            document.getElementById("demo").innerHTML = total;
+        </script>
+
+
+    </body>
+</html>
