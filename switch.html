@@ -1,0 +1,24 @@
+<!--used to perform different action basedon different conditions-->
+<!DOCTYPE html>
+<html lang="en">
+<body>
+    <p id = "demo"></p>
+    
+    <script>
+        let text;
+        switch(new Date().getDay()){
+            case 6 :
+            text = "today is sunday";
+            break;
+            case 3:
+            text = "today is sunday";
+            break;
+            default:
+            text = "looking forward for the weeekend"
+        }
+        document.getElementById("demo").innerHTML = text;
+    </script>
+
+    
+</body>
+</html>
