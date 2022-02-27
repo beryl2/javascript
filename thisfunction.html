@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">   
+<body>
+    <h1> the javascript<i>this</i> keyword</h1>
+    <p> in this example, <b>this</b> refers to the window object</p>
+    <p id = "demo"></p>
+    <script>
+        document.getElementById("demo").innerHTML = myFunction();
+        function myFunction() {
+            return this;
+        }
+    </script>
+    
+</body>
+</html>
